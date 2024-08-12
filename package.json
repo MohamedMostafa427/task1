@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.12",
     "axios": "^1.7.3",
     "framer-motion": "^11.3.24",
     "jotai": "^2.9.2",

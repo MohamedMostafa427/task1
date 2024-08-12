@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Nav } from "./components/Nav";
 import Providers from "../providers"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   title: "يمتاز | مكانك الامن لحجز رحلاتك",
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
           <Providers>
             {children}
           </Providers>
+          <SpeedInsights />
         </div>
       </body>
     </html>
