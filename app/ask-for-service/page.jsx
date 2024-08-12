@@ -8,7 +8,6 @@ import { useAtomValue } from 'jotai';
 
 export default function AskForService() {
     const selectedService = useAtomValue(selectedServiceAtom);
-    console.log(selectedService.w);
 
     const [fileName, setFileName] = useState("");
 
